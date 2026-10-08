@@ -1,0 +1,3556 @@
+[
+  {
+    "model": "tests_app.test",
+    "pk": 4,
+    "fields": {
+      "name": "Задание 1. «Жаворонок», «Сова», «Голубь»",
+      "description": "ПОДСЧЁТ БАЛЛОВ:\n0–18 баллов — «Жаворонок». Вы ранняя пташка, наиболее активны в первой половине дня.\n21–33 балла — «Сова». Ваша жизненная активность возрастает во второй половине дня.\n34–48 баллов — «Голубь» (аритмик). Ваша жизненная активность не привязана к определённым часам дня.",
+      "questions_count": 0,
+      "duration_minutes": 10,
+      "test_type": "scored",
+      "task_number": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 65,
+    "fields": {
+      "test": 4,
+      "question_text": "Если бы тебе предложили выбрать, во сколько бы ты ложился(ась) спать?",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 193,
+    "fields": {
+      "question": 65,
+      "option_text": "а) после часа ночи",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 194,
+    "fields": {
+      "question": 65,
+      "option_text": "б) до десяти",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 195,
+    "fields": {
+      "question": 65,
+      "option_text": "в) скорее всего, где-нибудь около двенадцати",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 66,
+    "fields": {
+      "test": 4,
+      "question_text": "Какой завтрак ты предпочитаешь в первый час после пробуждения?",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 196,
+    "fields": {
+      "question": 66,
+      "option_text": "а) что-то существенное, и побольше",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 197,
+    "fields": {
+      "question": 66,
+      "option_text": "б) стакан сока или чая",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 198,
+    "fields": {
+      "question": 66,
+      "option_text": "в) вареное яйцо или бутерброд",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 67,
+    "fields": {
+      "test": 4,
+      "question_text": "В какое время чаще всего происходят напряги и разборки с приятелями?",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 199,
+    "fields": {
+      "question": 67,
+      "option_text": "а) конечно, с утра, когда я ещё туго соображаю!",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 200,
+    "fields": {
+      "question": 67,
+      "option_text": "б) ближе к вечеру",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 201,
+    "fields": {
+      "question": 67,
+      "option_text": "в) не могу точно вспомнить",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 68,
+    "fields": {
+      "test": 4,
+      "question_text": "От чего ты мог(ла) бы отказаться с большей легкостью, чтобы не чувствовать дискомфорта?",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 202,
+    "fields": {
+      "question": 68,
+      "option_text": "а) от утреннего чая или кофе",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 203,
+    "fields": {
+      "question": 68,
+      "option_text": "б) от вечернего чаепития",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 204,
+    "fields": {
+      "question": 68,
+      "option_text": "в) мне в общем-то всё равно, когда пить чай",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 69,
+    "fields": {
+      "test": 4,
+      "question_text": "Если ты знаешь, что на другой день надо встать рано, постараешься уснуть раньше обычного?",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 205,
+    "fields": {
+      "question": 69,
+      "option_text": "а) обязательно — часа на полтора-два",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 206,
+    "fields": {
+      "question": 69,
+      "option_text": "б) по-моему, это не обязательно...",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 207,
+    "fields": {
+      "question": 69,
+      "option_text": "в) нет",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 70,
+    "fields": {
+      "test": 4,
+      "question_text": "Трудно ли тебе бывает просыпаться по будильнику?",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 208,
+    "fields": {
+      "question": 70,
+      "option_text": "а) я иногда готов(а) его разбить",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 209,
+    "fields": {
+      "question": 70,
+      "option_text": "б) в принципе нет",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 210,
+    "fields": {
+      "question": 70,
+      "option_text": "в) это зависит от того, во сколько я лёг(ла) спать",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 71,
+    "fields": {
+      "test": 4,
+      "question_text": "Во время каникул ты встаёшь так же рано, как обычно, когда идёшь в школу?",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 211,
+    "fields": {
+      "question": 71,
+      "option_text": "а) сплю, сколько хочу",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 212,
+    "fields": {
+      "question": 71,
+      "option_text": "б) да, встаю как бы по привычке",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 213,
+    "fields": {
+      "question": 71,
+      "option_text": "в) сложно сказать",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 72,
+    "fields": {
+      "test": 4,
+      "question_text": "Попытайся без часов определить одну минуту. Как точно тебе это удалось?",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 214,
+    "fields": {
+      "question": 72,
+      "option_text": "а) получилось меньше минуты",
+      "weight_people": 6,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 215,
+    "fields": {
+      "question": 72,
+      "option_text": "б) получилось больше минуты",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 216,
+    "fields": {
+      "question": 72,
+      "option_text": "в) попал(а) почти в точку",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 5,
+    "fields": {
+      "name": "Задание 2. Ваша самооценка",
+      "description": "ПОДСЧЁТ БАЛЛОВ:\nМенее 10 — завышенная самооценка: стоит избавляться от зазнайства и хвастовства.\n10–30 баллов — адекватная самооценка: вам по плечу серьёзные дела. Дерзайте!\nБолее 30 — заниженная самооценка: будьте собой и меньше думайте о том, как вас воспринимают окружающие.",
+      "questions_count": 0,
+      "duration_minutes": 15,
+      "test_type": "scored",
+      "task_number": 2
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 73,
+    "fields": {
+      "test": 5,
+      "question_text": "Бывает, что я беспокоюсь, хотя причин для этого вроде бы нет.",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 217,
+    "fields": {
+      "question": 73,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 218,
+    "fields": {
+      "question": 73,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 219,
+    "fields": {
+      "question": 73,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 220,
+    "fields": {
+      "question": 73,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 221,
+    "fields": {
+      "question": 73,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 74,
+    "fields": {
+      "test": 5,
+      "question_text": "Я боюсь выглядеть смешным(ой), нелепым(ой).",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 222,
+    "fields": {
+      "question": 74,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 223,
+    "fields": {
+      "question": 74,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 224,
+    "fields": {
+      "question": 74,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 225,
+    "fields": {
+      "question": 74,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 226,
+    "fields": {
+      "question": 74,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 75,
+    "fields": {
+      "test": 5,
+      "question_text": "Меня тревожит неопределённость будущего.",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 227,
+    "fields": {
+      "question": 75,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 228,
+    "fields": {
+      "question": 75,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 229,
+    "fields": {
+      "question": 75,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 230,
+    "fields": {
+      "question": 75,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 231,
+    "fields": {
+      "question": 75,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 76,
+    "fields": {
+      "test": 5,
+      "question_text": "Я чувствую потребность в том, чтобы друзья подбадривали меня.",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 232,
+    "fields": {
+      "question": 76,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 233,
+    "fields": {
+      "question": 76,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 234,
+    "fields": {
+      "question": 76,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 235,
+    "fields": {
+      "question": 76,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 236,
+    "fields": {
+      "question": 76,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 77,
+    "fields": {
+      "test": 5,
+      "question_text": "Я страдаю оттого, что многие не понимают меня.",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 237,
+    "fields": {
+      "question": 77,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 238,
+    "fields": {
+      "question": 77,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 239,
+    "fields": {
+      "question": 77,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 240,
+    "fields": {
+      "question": 77,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 241,
+    "fields": {
+      "question": 77,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 78,
+    "fields": {
+      "test": 5,
+      "question_text": "Меня не устраивает моя внешность.",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 242,
+    "fields": {
+      "question": 78,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 243,
+    "fields": {
+      "question": 78,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 244,
+    "fields": {
+      "question": 78,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 245,
+    "fields": {
+      "question": 78,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 246,
+    "fields": {
+      "question": 78,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 79,
+    "fields": {
+      "test": 5,
+      "question_text": "Люди ждут от меня очень многого.",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 247,
+    "fields": {
+      "question": 79,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 248,
+    "fields": {
+      "question": 79,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 249,
+    "fields": {
+      "question": 79,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 250,
+    "fields": {
+      "question": 79,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 251,
+    "fields": {
+      "question": 79,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 80,
+    "fields": {
+      "test": 5,
+      "question_text": "Я не умею как следует разговаривать с людьми.",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 252,
+    "fields": {
+      "question": 80,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 253,
+    "fields": {
+      "question": 80,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 254,
+    "fields": {
+      "question": 80,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 255,
+    "fields": {
+      "question": 80,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 256,
+    "fields": {
+      "question": 80,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 81,
+    "fields": {
+      "test": 5,
+      "question_text": "Чувствую себя скованным(ой).",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 257,
+    "fields": {
+      "question": 81,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 258,
+    "fields": {
+      "question": 81,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 259,
+    "fields": {
+      "question": 81,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 260,
+    "fields": {
+      "question": 81,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 261,
+    "fields": {
+      "question": 81,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 82,
+    "fields": {
+      "test": 5,
+      "question_text": "Я беспокоюсь по поводу того, как люди относятся ко мне.",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 262,
+    "fields": {
+      "question": 82,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 263,
+    "fields": {
+      "question": 82,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 264,
+    "fields": {
+      "question": 82,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 265,
+    "fields": {
+      "question": 82,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 266,
+    "fields": {
+      "question": 82,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 83,
+    "fields": {
+      "test": 5,
+      "question_text": "Мне кажется, что люди говорят про меня за моей спиной.",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 267,
+    "fields": {
+      "question": 83,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 268,
+    "fields": {
+      "question": 83,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 269,
+    "fields": {
+      "question": 83,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 270,
+    "fields": {
+      "question": 83,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 271,
+    "fields": {
+      "question": 83,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 84,
+    "fields": {
+      "test": 5,
+      "question_text": "Я чувствую, что со мной обязательно случится какая-нибудь неприятность.",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 272,
+    "fields": {
+      "question": 84,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 273,
+    "fields": {
+      "question": 84,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 274,
+    "fields": {
+      "question": 84,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 275,
+    "fields": {
+      "question": 84,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 276,
+    "fields": {
+      "question": 84,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 85,
+    "fields": {
+      "test": 5,
+      "question_text": "У меня нет ощущения безопасности.",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 277,
+    "fields": {
+      "question": 85,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 278,
+    "fields": {
+      "question": 85,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 279,
+    "fields": {
+      "question": 85,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 280,
+    "fields": {
+      "question": 85,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 281,
+    "fields": {
+      "question": 85,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 86,
+    "fields": {
+      "test": 5,
+      "question_text": "Мне не с кем поделиться своими мыслями.",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 282,
+    "fields": {
+      "question": 86,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 283,
+    "fields": {
+      "question": 86,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 284,
+    "fields": {
+      "question": 86,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 285,
+    "fields": {
+      "question": 86,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 286,
+    "fields": {
+      "question": 86,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 87,
+    "fields": {
+      "test": 5,
+      "question_text": "Мои достижения для окружающих неинтересны.",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 287,
+    "fields": {
+      "question": 87,
+      "option_text": "Очень часто",
+      "weight_people": 4,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 288,
+    "fields": {
+      "question": 87,
+      "option_text": "Часто",
+      "weight_people": 3,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 289,
+    "fields": {
+      "question": 87,
+      "option_text": "Иногда",
+      "weight_people": 2,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 290,
+    "fields": {
+      "question": 87,
+      "option_text": "Редко",
+      "weight_people": 1,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 291,
+    "fields": {
+      "question": 87,
+      "option_text": "Никогда",
+      "weight_people": 0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 6,
+    "fields": {
+      "name": "Задание 3. Темперамент",
+      "description": "Из четырёх предложенных характеристик выбирайте ту, которая вам наиболее свойственна.\n\nПодсчёт: «а» — холерик, «б» — сангвиник, «в» — флегматик, «г» — меланхолик.\n36 и более — тип доминирует. 30–35 — ярко выражен. 20–29 — достаточно выражен. 10–19 — слабо выражен.",
+      "questions_count": 0,
+      "duration_minutes": 15,
+      "test_type": "temperament",
+      "task_number": 3
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 88,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 292,
+    "fields": {
+      "question": 88,
+      "option_text": "а) неусидчивы и суетливы",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 293,
+    "fields": {
+      "question": 88,
+      "option_text": "б) веселы и жизнерадостны",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 294,
+    "fields": {
+      "question": 88,
+      "option_text": "в) спокойны и хладнокровны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 295,
+    "fields": {
+      "question": 88,
+      "option_text": "г) стеснительны и застенчивы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 89,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 296,
+    "fields": {
+      "question": 89,
+      "option_text": "а) невыдержанны и вспыльчивы",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 297,
+    "fields": {
+      "question": 89,
+      "option_text": "б) энергичны и деловиты",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 298,
+    "fields": {
+      "question": 89,
+      "option_text": "в) последовательны и обстоятельны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 299,
+    "fields": {
+      "question": 89,
+      "option_text": "г) теряетесь в новой обстановке",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 90,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 300,
+    "fields": {
+      "question": 90,
+      "option_text": "а) нетерпеливы",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 301,
+    "fields": {
+      "question": 90,
+      "option_text": "б) не доводите начатое дело до конца",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 302,
+    "fields": {
+      "question": 90,
+      "option_text": "в) осторожны и рассудительны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 303,
+    "fields": {
+      "question": 90,
+      "option_text": "г) затрудняетесь установить контакт с новыми людьми",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 91,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 304,
+    "fields": {
+      "question": 91,
+      "option_text": "а) резки и прямолинейны в отношениях с людьми",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 305,
+    "fields": {
+      "question": 91,
+      "option_text": "б) склонны переоценивать себя",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 306,
+    "fields": {
+      "question": 91,
+      "option_text": "в) умеете ждать",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 307,
+    "fields": {
+      "question": 91,
+      "option_text": "г) не верите в свои силы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 92,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 308,
+    "fields": {
+      "question": 92,
+      "option_text": "а) решительны и инициативны",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 309,
+    "fields": {
+      "question": 92,
+      "option_text": "б) способны быстро схватывать новое",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 310,
+    "fields": {
+      "question": 92,
+      "option_text": "в) молчаливы и не любите попусту болтать",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 311,
+    "fields": {
+      "question": 92,
+      "option_text": "г) легко переносите одиночество",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 93,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 312,
+    "fields": {
+      "question": 93,
+      "option_text": "а) упрямы",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 313,
+    "fields": {
+      "question": 93,
+      "option_text": "б) неустойчивы в интересах и склонностях",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 314,
+    "fields": {
+      "question": 93,
+      "option_text": "в) обладаете спокойной ровной речью с остановками",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 315,
+    "fields": {
+      "question": 93,
+      "option_text": "г) чувствуете подавленность и растерянность при неудачах",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 94,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 316,
+    "fields": {
+      "question": 94,
+      "option_text": "а) находчивы в споре",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 317,
+    "fields": {
+      "question": 94,
+      "option_text": "б) легко переживаете неудачи и неприятности",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 318,
+    "fields": {
+      "question": 94,
+      "option_text": "в) сдержанны и терпеливы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 319,
+    "fields": {
+      "question": 94,
+      "option_text": "г) склонны уходить в себя",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 95,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 320,
+    "fields": {
+      "question": 95,
+      "option_text": "а) склонны к риску",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 321,
+    "fields": {
+      "question": 95,
+      "option_text": "б) легко приспосабливаетесь к разным обстоятельствам",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 322,
+    "fields": {
+      "question": 95,
+      "option_text": "в) доводите начатое дело до конца",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 323,
+    "fields": {
+      "question": 95,
+      "option_text": "г) быстро утомляетесь",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 96,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 324,
+    "fields": {
+      "question": 96,
+      "option_text": "а) работаете рывками",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 325,
+    "fields": {
+      "question": 96,
+      "option_text": "б) с увлечением беретесь за любое новое дело",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 326,
+    "fields": {
+      "question": 96,
+      "option_text": "в) не растрачиваете попусту сил",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 327,
+    "fields": {
+      "question": 96,
+      "option_text": "г) обладаете слабой тихой речью, иногда снижающейся",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 97,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 328,
+    "fields": {
+      "question": 97,
+      "option_text": "а) незлопамятны и боязливы",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 329,
+    "fields": {
+      "question": 97,
+      "option_text": "б) быстро остываете, если что-то перестает вас интересовать",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 330,
+    "fields": {
+      "question": 97,
+      "option_text": "в) строго придерживаетесь выработанного распорядка дня",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 331,
+    "fields": {
+      "question": 97,
+      "option_text": "г) невольно приспосабливаетесь к характеру собеседника",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 98,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 332,
+    "fields": {
+      "question": 98,
+      "option_text": "а) обладаете быстрой страстной речью со сбивчивыми интонациями",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 333,
+    "fields": {
+      "question": 98,
+      "option_text": "б) быстро включаетесь в новую работу и быстро переключаетесь",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 334,
+    "fields": {
+      "question": 98,
+      "option_text": "в) легко сдерживаете порыв",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 335,
+    "fields": {
+      "question": 98,
+      "option_text": "г) впечатлительны до слезливости",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 99,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 336,
+    "fields": {
+      "question": 99,
+      "option_text": "а) неуравновешенны и склонны к горячности",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 337,
+    "fields": {
+      "question": 99,
+      "option_text": "б) тяготитесь однообразной кропотливой работой",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 338,
+    "fields": {
+      "question": 99,
+      "option_text": "в) мало восприимчивы к одобрению или порицанию",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 339,
+    "fields": {
+      "question": 99,
+      "option_text": "г) предъявляете высокие требования к себе и окружающим",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 100,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 340,
+    "fields": {
+      "question": 100,
+      "option_text": "а) бываете агрессивным забиякой",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 341,
+    "fields": {
+      "question": 100,
+      "option_text": "б) общительны и отзывчивы, не чувствуете скованности",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 342,
+    "fields": {
+      "question": 100,
+      "option_text": "в) незлобливы, снисходительны к колкостям",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 343,
+    "fields": {
+      "question": 100,
+      "option_text": "г) склонны к подозрительности, мнительны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 101,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 344,
+    "fields": {
+      "question": 101,
+      "option_text": "а) нетерпимы к недостаткам",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 345,
+    "fields": {
+      "question": 101,
+      "option_text": "б) выносливы и работоспособны",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 346,
+    "fields": {
+      "question": 101,
+      "option_text": "в) постоянны в своих интересах",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 347,
+    "fields": {
+      "question": 101,
+      "option_text": "г) болезненно чувствительны и легко ранимы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 102,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 348,
+    "fields": {
+      "question": 102,
+      "option_text": "а) обладаете выразительной мимикой",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 349,
+    "fields": {
+      "question": 102,
+      "option_text": "б) обладаете громкой быстрой речью с живыми жестами",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 350,
+    "fields": {
+      "question": 102,
+      "option_text": "в) медленно включаетесь в работу и переключаетесь",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 351,
+    "fields": {
+      "question": 102,
+      "option_text": "г) чрезмерно обидчивы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 103,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 16
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 352,
+    "fields": {
+      "question": 103,
+      "option_text": "а) способны быстро действовать и решать",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 353,
+    "fields": {
+      "question": 103,
+      "option_text": "б) сохраняете самообладание в сложной обстановке",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 354,
+    "fields": {
+      "question": 103,
+      "option_text": "в) равны в отношениях со всеми",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 355,
+    "fields": {
+      "question": 103,
+      "option_text": "г) скрытны и необщительны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 104,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 17
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 356,
+    "fields": {
+      "question": 104,
+      "option_text": "а) неустанно стремитесь к новому",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 357,
+    "fields": {
+      "question": 104,
+      "option_text": "б) обладаете всегда бодрым настроением",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 358,
+    "fields": {
+      "question": 104,
+      "option_text": "в) любите аккуратность во всём",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 359,
+    "fields": {
+      "question": 104,
+      "option_text": "г) малоактивны и робки",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 105,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 18
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 360,
+    "fields": {
+      "question": 105,
+      "option_text": "а) обладаете резкими порывистыми движениями",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 361,
+    "fields": {
+      "question": 105,
+      "option_text": "б) быстро засыпаете и пробуждаетесь",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 362,
+    "fields": {
+      "question": 105,
+      "option_text": "в) с трудом приспосабливаетесь к новой обстановке",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 363,
+    "fields": {
+      "question": 105,
+      "option_text": "г) безропотны, покорны",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 106,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 19
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 364,
+    "fields": {
+      "question": 106,
+      "option_text": "а) несобранны, проявляете поспешность в решениях",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 365,
+    "fields": {
+      "question": 106,
+      "option_text": "б) настойчивы в достижении поставленной цели",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 366,
+    "fields": {
+      "question": 106,
+      "option_text": "в) инертны, малоподвижны, вялы",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 367,
+    "fields": {
+      "question": 106,
+      "option_text": "г) стремитесь вызвать сочувствие и помощь других",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 107,
+    "fields": {
+      "test": 6,
+      "question_text": "Выберите наиболее свойственную вам характеристику:",
+      "question_type": "single_choice",
+      "question_order": 20
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 368,
+    "fields": {
+      "question": 107,
+      "option_text": "а) склонны к резким сменам настроения",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 369,
+    "fields": {
+      "question": 107,
+      "option_text": "б) склонны иногда скользить по поверхности, отвлекаться",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 370,
+    "fields": {
+      "question": 107,
+      "option_text": "в) обладаете выдержкой",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 371,
+    "fields": {
+      "question": 107,
+      "option_text": "г) чрезвычайно восприимчивы к одобрению и порицанию",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 7,
+    "fields": {
+      "name": "Задание 4. Тест на качество внимания",
+      "description": "ПОДСЧЁТ ОЧКОВ:\n110 и более — вы удивительно внимательны и проницательны. Второй Шерлок Холмс!\n50–100 — умеете быть внимательным когда нужно, но порой бываете рассеянны.\n40 и менее — ужасно рассеянный человек. Но каждый может натренировать память и внимание!",
+      "questions_count": 0,
+      "duration_minutes": 10,
+      "test_type": "scored",
+      "task_number": 4
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 108,
+    "fields": {
+      "test": 7,
+      "question_text": "Часто ли вы из-за невнимания терпите неудачу в игре?",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 372,
+    "fields": {
+      "question": 108,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 373,
+    "fields": {
+      "question": 108,
+      "option_text": "Нет",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 109,
+    "fields": {
+      "test": 7,
+      "question_text": "Могут ли друзья и знакомые разыграть вас?",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 374,
+    "fields": {
+      "question": 109,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 375,
+    "fields": {
+      "question": 109,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 110,
+    "fields": {
+      "test": 7,
+      "question_text": "В состоянии ли вы заниматься каким-либо делом и одновременно слушать то, о чём говорят вокруг вас?",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 376,
+    "fields": {
+      "question": 110,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 377,
+    "fields": {
+      "question": 110,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 111,
+    "fields": {
+      "test": 7,
+      "question_text": "Находили ли вы на улице деньги, ключи?",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 378,
+    "fields": {
+      "question": 111,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 379,
+    "fields": {
+      "question": 111,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 112,
+    "fields": {
+      "test": 7,
+      "question_text": "При переходе улицы оглядываетесь ли вы внимательно по сторонам?",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 380,
+    "fields": {
+      "question": 112,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 381,
+    "fields": {
+      "question": 112,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 113,
+    "fields": {
+      "test": 7,
+      "question_text": "Можете ли вы вспомнить в деталях фильм, который смотрели два дня назад?",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 382,
+    "fields": {
+      "question": 113,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 383,
+    "fields": {
+      "question": 113,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 114,
+    "fields": {
+      "test": 7,
+      "question_text": "Бываете ли вы недовольны, если вас вдруг оторвут от чтения книги или другого занятия?",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 384,
+    "fields": {
+      "question": 114,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 385,
+    "fields": {
+      "question": 114,
+      "option_text": "Нет",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 115,
+    "fields": {
+      "test": 7,
+      "question_text": "Проверяете ли сдачу в магазине сразу у кассы?",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 386,
+    "fields": {
+      "question": 115,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 387,
+    "fields": {
+      "question": 115,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 116,
+    "fields": {
+      "test": 7,
+      "question_text": "Быстро ли находите в квартире нужную вещь?",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 388,
+    "fields": {
+      "question": 116,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 389,
+    "fields": {
+      "question": 116,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 117,
+    "fields": {
+      "test": 7,
+      "question_text": "Вздрагиваете ли вы, если вас вдруг внезапно окликнут на улице?",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 390,
+    "fields": {
+      "question": 117,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 391,
+    "fields": {
+      "question": 117,
+      "option_text": "Нет",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 118,
+    "fields": {
+      "test": 7,
+      "question_text": "Случалось ли с вами такое, что вы одного человека принимали за другого?",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 392,
+    "fields": {
+      "question": 118,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 393,
+    "fields": {
+      "question": 118,
+      "option_text": "Нет",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 119,
+    "fields": {
+      "test": 7,
+      "question_text": "Если вы в транспорте увлеклись беседой, можете ли пропустить нужную остановку?",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 394,
+    "fields": {
+      "question": 119,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 395,
+    "fields": {
+      "question": 119,
+      "option_text": "Нет",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 120,
+    "fields": {
+      "test": 7,
+      "question_text": "Можете ли вы быстро вспомнить даты рождения ваших близких?",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 396,
+    "fields": {
+      "question": 120,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 397,
+    "fields": {
+      "question": 120,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 121,
+    "fields": {
+      "test": 7,
+      "question_text": "Легко ли вы пробуждаетесь ото сна?",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 398,
+    "fields": {
+      "question": 121,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 399,
+    "fields": {
+      "question": 121,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 122,
+    "fields": {
+      "test": 7,
+      "question_text": "Сумеете ли найти в большом городе без посторонней помощи место, где побывали год назад?",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 400,
+    "fields": {
+      "question": 122,
+      "option_text": "Да",
+      "weight_people": 10.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 401,
+    "fields": {
+      "question": 122,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  }
+]

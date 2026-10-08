@@ -1,0 +1,2002 @@
+[
+  {
+    "model": "tests_app.test",
+    "pk": 8,
+    "fields": {
+      "name": "Задание 5. Тип мышления",
+      "description": "ПРОФИЛЬ ТИПОВ МЫШЛЕНИЯ (0–2: низкий, 3–5: средний, 6–8: высокий):\n\nПредметно-действенное — люди дела, «золотые руки»: водители, спортсмены, хирурги, механики.\nАбстрактно-символическое — люди науки: физики, математики, программисты, аналитики.\nСловесно-логическое — вербальный интеллект: журналисты, политики, преподаватели, переводчики.\nНаглядно-образное — художественный склад: художники, дизайнеры, архитекторы, режиссёры.\nКреативность — нестандартное мышление, редкое и ценное качество в любой сфере.",
+      "questions_count": 0,
+      "duration_minutes": 20,
+      "test_type": "scored",
+      "task_number": 5
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 123,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне легче что-либо сделать самому, чем объяснить другому.",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 402,
+    "fields": {
+      "question": 123,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 403,
+    "fields": {
+      "question": 123,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 124,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне интересно составлять компьютерные программы.",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 404,
+    "fields": {
+      "question": 124,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 405,
+    "fields": {
+      "question": 124,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 125,
+    "fields": {
+      "test": 8,
+      "question_text": "Я люблю читать книги.",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 406,
+    "fields": {
+      "question": 125,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 407,
+    "fields": {
+      "question": 125,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 126,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне нравится живопись, скульптура, архитектура.",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 408,
+    "fields": {
+      "question": 126,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 409,
+    "fields": {
+      "question": 126,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 127,
+    "fields": {
+      "test": 8,
+      "question_text": "Даже в отлаженном деле я стараюсь что-то улучшить.",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 410,
+    "fields": {
+      "question": 127,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 411,
+    "fields": {
+      "question": 127,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 128,
+    "fields": {
+      "test": 8,
+      "question_text": "Я лучше понимаю, если мне объясняют на предметах или рисунках.",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 412,
+    "fields": {
+      "question": 128,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 413,
+    "fields": {
+      "question": 128,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 129,
+    "fields": {
+      "test": 8,
+      "question_text": "Я люблю играть в шахматы.",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 414,
+    "fields": {
+      "question": 129,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 415,
+    "fields": {
+      "question": 129,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 130,
+    "fields": {
+      "test": 8,
+      "question_text": "Я легко излагаю свои мысли как в устной, так и в письменной форме.",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 416,
+    "fields": {
+      "question": 130,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 417,
+    "fields": {
+      "question": 130,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 131,
+    "fields": {
+      "test": 8,
+      "question_text": "Когда я читаю книгу, я чётко вижу её героев и описываемые события.",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 418,
+    "fields": {
+      "question": 131,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 419,
+    "fields": {
+      "question": 131,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 132,
+    "fields": {
+      "test": 8,
+      "question_text": "Я предпочитаю самостоятельно планировать свою работу.",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 420,
+    "fields": {
+      "question": 132,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 421,
+    "fields": {
+      "question": 132,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 133,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне нравится всё делать своими руками.",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 422,
+    "fields": {
+      "question": 133,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 423,
+    "fields": {
+      "question": 133,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 134,
+    "fields": {
+      "test": 8,
+      "question_text": "В детстве я создавал(а) свой шифр для переписки с друзьями.",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 424,
+    "fields": {
+      "question": 134,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 425,
+    "fields": {
+      "question": 134,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 135,
+    "fields": {
+      "test": 8,
+      "question_text": "Я придаю большое значение сказанному слову.",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 426,
+    "fields": {
+      "question": 135,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 427,
+    "fields": {
+      "question": 135,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 136,
+    "fields": {
+      "test": 8,
+      "question_text": "Знакомые мелодии вызывают у меня в голове определённые картины.",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 428,
+    "fields": {
+      "question": 136,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 429,
+    "fields": {
+      "question": 136,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 137,
+    "fields": {
+      "test": 8,
+      "question_text": "Разнообразные увлечения делают жизнь человека богаче и ярче.",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 430,
+    "fields": {
+      "question": 137,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 431,
+    "fields": {
+      "question": 137,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 138,
+    "fields": {
+      "test": 8,
+      "question_text": "При решении задачи мне легче идти методом проб и ошибок.",
+      "question_type": "single_choice",
+      "question_order": 16
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 432,
+    "fields": {
+      "question": 138,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 433,
+    "fields": {
+      "question": 138,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 139,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне интересно разбираться в природе физических явлений.",
+      "question_type": "single_choice",
+      "question_order": 17
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 434,
+    "fields": {
+      "question": 139,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 435,
+    "fields": {
+      "question": 139,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 140,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне интересна работа ведущего теле-радиопрограмм, журналиста.",
+      "question_type": "single_choice",
+      "question_order": 18
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 436,
+    "fields": {
+      "question": 140,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 437,
+    "fields": {
+      "question": 140,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 141,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне легко представить предмет или животное, которых нет в природе.",
+      "question_type": "single_choice",
+      "question_order": 19
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 438,
+    "fields": {
+      "question": 141,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 439,
+    "fields": {
+      "question": 141,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 142,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне больше нравится процесс деятельности, чем сам результат.",
+      "question_type": "single_choice",
+      "question_order": 20
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 440,
+    "fields": {
+      "question": 142,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 441,
+    "fields": {
+      "question": 142,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 143,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне нравилось в детстве собирать конструктор.",
+      "question_type": "single_choice",
+      "question_order": 21
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 442,
+    "fields": {
+      "question": 143,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 443,
+    "fields": {
+      "question": 143,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 144,
+    "fields": {
+      "test": 8,
+      "question_text": "Я предпочитаю точные науки (математику, физику).",
+      "question_type": "single_choice",
+      "question_order": 22
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 444,
+    "fields": {
+      "question": 144,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 445,
+    "fields": {
+      "question": 144,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 145,
+    "fields": {
+      "test": 8,
+      "question_text": "Меня восхищает точность и глубина некоторых стихов.",
+      "question_type": "single_choice",
+      "question_order": 23
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 446,
+    "fields": {
+      "question": 145,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 447,
+    "fields": {
+      "question": 145,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 146,
+    "fields": {
+      "test": 8,
+      "question_text": "Знакомый запах вызывает в моей памяти прошлые события.",
+      "question_type": "single_choice",
+      "question_order": 24
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 448,
+    "fields": {
+      "question": 146,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 449,
+    "fields": {
+      "question": 146,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 147,
+    "fields": {
+      "test": 8,
+      "question_text": "Я не хотел(а) бы подчинять свою жизнь определённой системе.",
+      "question_type": "single_choice",
+      "question_order": 25
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 450,
+    "fields": {
+      "question": 147,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 451,
+    "fields": {
+      "question": 147,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 148,
+    "fields": {
+      "test": 8,
+      "question_text": "Когда я слышу музыку, мне хочется танцевать.",
+      "question_type": "single_choice",
+      "question_order": 26
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 452,
+    "fields": {
+      "question": 148,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 453,
+    "fields": {
+      "question": 148,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 149,
+    "fields": {
+      "test": 8,
+      "question_text": "Я понимаю красоту математических формул.",
+      "question_type": "single_choice",
+      "question_order": 27
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 454,
+    "fields": {
+      "question": 149,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 455,
+    "fields": {
+      "question": 149,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 150,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне легко говорить перед любой аудиторией.",
+      "question_type": "single_choice",
+      "question_order": 28
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 456,
+    "fields": {
+      "question": 150,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 457,
+    "fields": {
+      "question": 150,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 151,
+    "fields": {
+      "test": 8,
+      "question_text": "Я люблю посещать выставки, спектакли, концерты.",
+      "question_type": "single_choice",
+      "question_order": 29
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 458,
+    "fields": {
+      "question": 151,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 459,
+    "fields": {
+      "question": 151,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 152,
+    "fields": {
+      "test": 8,
+      "question_text": "Я сомневаюсь даже в том, что для других очевидно.",
+      "question_type": "single_choice",
+      "question_order": 30
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 460,
+    "fields": {
+      "question": 152,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 461,
+    "fields": {
+      "question": 152,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 153,
+    "fields": {
+      "test": 8,
+      "question_text": "Я люблю заниматься рукоделием, что-то мастерить.",
+      "question_type": "single_choice",
+      "question_order": 31
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 462,
+    "fields": {
+      "question": 153,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 463,
+    "fields": {
+      "question": 153,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 154,
+    "fields": {
+      "test": 8,
+      "question_text": "Мне интересно было бы расшифровать древние тексты.",
+      "question_type": "single_choice",
+      "question_order": 32
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 464,
+    "fields": {
+      "question": 154,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 465,
+    "fields": {
+      "question": 154,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 155,
+    "fields": {
+      "test": 8,
+      "question_text": "Я легко усваиваю грамматические конструкции языка.",
+      "question_type": "single_choice",
+      "question_order": 33
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 466,
+    "fields": {
+      "question": 155,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 467,
+    "fields": {
+      "question": 155,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 156,
+    "fields": {
+      "test": 8,
+      "question_text": "Красота для меня важнее, чем польза.",
+      "question_type": "single_choice",
+      "question_order": 34
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 468,
+    "fields": {
+      "question": 156,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 469,
+    "fields": {
+      "question": 156,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 157,
+    "fields": {
+      "test": 8,
+      "question_text": "Не люблю ходить одним и тем же путём.",
+      "question_type": "single_choice",
+      "question_order": 35
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 470,
+    "fields": {
+      "question": 157,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 471,
+    "fields": {
+      "question": 157,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 158,
+    "fields": {
+      "test": 8,
+      "question_text": "Истинно только то, что можно потрогать руками.",
+      "question_type": "single_choice",
+      "question_order": 36
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 472,
+    "fields": {
+      "question": 158,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 473,
+    "fields": {
+      "question": 158,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 159,
+    "fields": {
+      "test": 8,
+      "question_text": "Я легко запоминаю формулы, символы, условные обозначения.",
+      "question_type": "single_choice",
+      "question_order": 37
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 474,
+    "fields": {
+      "question": 159,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 1.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 475,
+    "fields": {
+      "question": 159,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 160,
+    "fields": {
+      "test": 8,
+      "question_text": "Друзья любят слушать, когда я им что-то рассказываю.",
+      "question_type": "single_choice",
+      "question_order": 38
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 476,
+    "fields": {
+      "question": 160,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 1.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 477,
+    "fields": {
+      "question": 160,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 161,
+    "fields": {
+      "test": 8,
+      "question_text": "Я легко могу представить в образах содержание рассказа или фильма.",
+      "question_type": "single_choice",
+      "question_order": 39
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 478,
+    "fields": {
+      "question": 161,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 1.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 479,
+    "fields": {
+      "question": 161,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 162,
+    "fields": {
+      "test": 8,
+      "question_text": "Я не могу успокоиться, пока не доведу свою работу до совершенства.",
+      "question_type": "single_choice",
+      "question_order": 40
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 480,
+    "fields": {
+      "question": 162,
+      "option_text": "+ (да, согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 1.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 481,
+    "fields": {
+      "question": 162,
+      "option_text": "- (нет, не согласен(на))",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 9,
+    "fields": {
+      "name": "Задание 6. Воображение",
+      "description": "ПОДСЧЁТ ОЧКОВ:\n14–17 очков: у вас богатое воображение. Применив его в жизни, добьётесь больших творческих успехов!\n9–13 очков: среднее воображение. От вас зависит, сумеете ли вы развить его.\n5–8 очков: вы реалист. В облаках не витаете. Немного фантазии ещё никому не вредило!",
+      "questions_count": 0,
+      "duration_minutes": 10,
+      "test_type": "scored",
+      "task_number": 6
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 163,
+    "fields": {
+      "test": 9,
+      "question_text": "Интересуетесь ли вы живописью?",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 482,
+    "fields": {
+      "question": 163,
+      "option_text": "Да",
+      "weight_people": 2.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 483,
+    "fields": {
+      "question": 163,
+      "option_text": "Нет",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 164,
+    "fields": {
+      "test": 9,
+      "question_text": "Часто ли вы скучаете?",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 484,
+    "fields": {
+      "question": 164,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 485,
+    "fields": {
+      "question": 164,
+      "option_text": "Нет",
+      "weight_people": 2.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 165,
+    "fields": {
+      "test": 9,
+      "question_text": "Рассказывая историю, любите ли вы украсить её красочной деталью, добавленной от себя?",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 486,
+    "fields": {
+      "question": 165,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 487,
+    "fields": {
+      "question": 165,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 166,
+    "fields": {
+      "test": 9,
+      "question_text": "Инициативны ли вы на работе (учёбе)?",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 488,
+    "fields": {
+      "question": 166,
+      "option_text": "Да",
+      "weight_people": 2.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 489,
+    "fields": {
+      "question": 166,
+      "option_text": "Нет",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 167,
+    "fields": {
+      "test": 9,
+      "question_text": "«Широко» ли вы пишете, много ли занимаете места на бумаге?",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 490,
+    "fields": {
+      "question": 167,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 491,
+    "fields": {
+      "question": 167,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 168,
+    "fields": {
+      "test": 9,
+      "question_text": "Руководствуетесь ли вы в выборе одежды собственным вкусом, а не законами моды?",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 492,
+    "fields": {
+      "question": 168,
+      "option_text": "Да",
+      "weight_people": 2.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 493,
+    "fields": {
+      "question": 168,
+      "option_text": "Нет",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 169,
+    "fields": {
+      "test": 9,
+      "question_text": "Любите ли вы рисовать во время собраний или лекций одни и те же фигурки?",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 494,
+    "fields": {
+      "question": 169,
+      "option_text": "Да",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 495,
+    "fields": {
+      "question": 169,
+      "option_text": "Нет",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 170,
+    "fields": {
+      "test": 9,
+      "question_text": "Слушая музыку, представляете ли вы какие-либо образы, связанные с ней?",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 496,
+    "fields": {
+      "question": 170,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 497,
+    "fields": {
+      "question": 170,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 171,
+    "fields": {
+      "test": 9,
+      "question_text": "Любите ли вы писать длинные письма?",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 498,
+    "fields": {
+      "question": 171,
+      "option_text": "Да",
+      "weight_people": 2.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 499,
+    "fields": {
+      "question": 171,
+      "option_text": "Нет",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 172,
+    "fields": {
+      "test": 9,
+      "question_text": "Видите ли вы иногда цветные сны?",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 500,
+    "fields": {
+      "question": 172,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 501,
+    "fields": {
+      "question": 172,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 173,
+    "fields": {
+      "test": 9,
+      "question_text": "Любите ли вы мысленно бывать в местах, которые знаете лишь по рассказам?",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 502,
+    "fields": {
+      "question": 173,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 503,
+    "fields": {
+      "question": 173,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 174,
+    "fields": {
+      "test": 9,
+      "question_text": "Часто ли вы расстраиваетесь или плачете в кино?",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 504,
+    "fields": {
+      "question": 174,
+      "option_text": "Да",
+      "weight_people": 1.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 505,
+    "fields": {
+      "question": 174,
+      "option_text": "Нет",
+      "weight_people": 0.0,
+      "weight_intellectual": 0.0,
+      "weight_practical": 0.0,
+      "weight_aesthetic": 0.0,
+      "weight_physical": 0.0,
+      "weight_administrative": 0.0
+    }
+  }
+]

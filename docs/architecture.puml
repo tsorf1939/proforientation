@@ -1,0 +1,136 @@
+@startuml Архитектура системы профориентации
+
+skinparam componentStyle uml2
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+
+skinparam package {
+  BackgroundColor #F8F9FA
+  BorderColor     #6C757D
+  FontStyle       Bold
+  FontSize        13
+}
+
+skinparam component {
+  BackgroundColor #EDE9FE
+  BorderColor     #7C3AED
+  FontColor       #1E1B4B
+}
+
+skinparam database {
+  BackgroundColor #FEE2E2
+  BorderColor     #DC2626
+  FontColor       #7F1D1D
+}
+
+skinparam interface {
+  BackgroundColor #DBEAFE
+  BorderColor     #2563EB
+}
+
+' ═══════════════════════════════════════════════════════
+'  КЛИЕНТСКИЙ УРОВЕНЬ
+' ═══════════════════════════════════════════════════════
+package "Клиентский уровень" {
+  [Браузер\n(Web Client)] as Browser
+}
+
+' ═══════════════════════════════════════════════════════
+'  УРОВЕНЬ МАРШРУТИЗАЦИИ
+' ═══════════════════════════════════════════════════════
+package "Уровень маршрутизации" {
+  [Nginx :80\n<<Reverse Proxy>>] as Nginx
+}
+
+' ═══════════════════════════════════════════════════════
+'  УРОВЕНЬ ПРЕДСТАВЛЕНИЯ
+' ═══════════════════════════════════════════════════════
+package "Уровень представления" {
+  [Vue 3 SPA\n<<Vite :5173>>] as Vue
+  [Статические ресурсы\n<<Static Volume>>] as Static
+}
+
+' ═══════════════════════════════════════════════════════
+'  УРОВЕНЬ ПРИЛОЖЕНИЯ
+' ═══════════════════════════════════════════════════════
+package "Уровень приложения" {
+  [Gunicorn\n<<WSGI :8000, 3 workers>>] as Gunicorn
+
+  package "Django Application" {
+    [Модуль аутентификации\n<<users>>] as Users
+    [Модуль тестирования\n<<tests_app>>] as Tests
+    [Модуль профессий\n<<careers>>] as Careers
+    [Модуль рекомендаций\n<<recommendations>>] as Recs
+    [Модуль отчётов\n<<reports>>] as Reports
+  }
+}
+
+' ═══════════════════════════════════════════════════════
+'  УРОВЕНЬ ДАННЫХ
+' ═══════════════════════════════════════════════════════
+package "Уровень данных" {
+  database "PostgreSQL 16\n:5432" as PG
+}
+
+' ═══════════════════════════════════════════════════════
+'  УРОВЕНЬ АСИНХРОННОЙ ОБРАБОТКИ
+' ═══════════════════════════════════════════════════════
+package "Уровень асинхронной обработки" {
+  [Redis 7\n<<Message Broker :6379>>] as Redis
+  [Celery Worker\n<<Task Processor>>] as Celery
+}
+
+' ═══════════════════════════════════════════════════════
+'  ИНТЕРФЕЙСЫ
+' ═══════════════════════════════════════════════════════
+interface "HTTP :80"          as IHTTP
+interface "REST API\n/api/*"  as IREST
+interface "WSGI"              as IWSGI
+interface "SQL / ORM"         as ISQL
+interface "Redis Protocol"    as IRedis
+interface "JWT"               as IJWT
+
+' ═══════════════════════════════════════════════════════
+'  СВЯЗИ
+' ═══════════════════════════════════════════════════════
+
+' Клиент → Nginx
+Browser  -down-> IHTTP
+IHTTP    -down- Nginx
+
+' Nginx → Frontend / Backend / Static
+Nginx -down-> Vue    : "/ (SPA + HMR)"
+Nginx -down-> Static : "/static/ (30d cache)"
+Nginx -down-> IREST  : "/api/* /admin/*"
+
+' Frontend → Backend (через Nginx)
+Vue .right.> IJWT    : "Bearer token"
+IJWT .right.> Nginx
+
+' Backend
+IREST   -down-> Gunicorn
+Gunicorn -down-> IWSGI
+IWSGI   -down- Users
+IWSGI   -down- Tests
+IWSGI   -down- Careers
+IWSGI   -down- Recs
+IWSGI   -down- Reports
+
+' Django → PostgreSQL
+Users   -down-> ISQL
+Tests   -down-> ISQL
+Careers -down-> ISQL
+Recs    -down-> ISQL
+Reports -down-> ISQL
+ISQL    -down- PG
+
+' Django → Redis (сигналы / task.delay())
+Recs    -right-> IRedis : "task.delay()\n<<Django signal>>"
+IRedis  -right- Redis
+
+' Redis → Celery → PostgreSQL
+Redis  -down-> Celery : "<<dequeue>>"
+Celery -left->  PG    : "<<save results>>"
+
+@enduml

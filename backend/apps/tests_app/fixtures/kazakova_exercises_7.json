@@ -1,0 +1,2756 @@
+[
+  {
+    "model": "tests_app.test",
+    "pk": 16,
+    "fields": {
+      "name": "Задание 13. Тип профессиональной направленности (Холланд)",
+      "test_type": "scored",
+      "task_number": 13,
+      "description": "Методика Дж. Холланда. Из каждой пары специальностей выберите одну, более подходящую для вас.\n\nТипы профессиональной направленности:\nРеалистичный — практическая, техническая работа с ощутимым результатом.\nИнтеллектуальный — исследование, анализ, широкий кругозор.\nСоциальный — работа с людьми, обучение, помощь, общение.\nКонвенциональный — документы, цифры, чёткий круг обязанностей, точность.\nПредприимчивый — организация, лидерство, инициатива, риск.\nХудожественный — творчество, эстетика, свободное самовыражение.",
+      "questions_count": 0,
+      "duration_minutes": 20
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 333,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Археолог» или «Реставратор произведений искусств»?",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 838,
+    "fields": {
+      "question": 333,
+      "option_text": "Археолог",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 839,
+    "fields": {
+      "question": 333,
+      "option_text": "Реставратор произведений искусств",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 334,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Специалист по связям с общественностью» или «Страховой агент»?",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 840,
+    "fields": {
+      "question": 334,
+      "option_text": "Специалист по связям с общественностью",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 841,
+    "fields": {
+      "question": 334,
+      "option_text": "Страховой агент",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 335,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Нотариус» или «Телеведущий»?",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 842,
+    "fields": {
+      "question": 335,
+      "option_text": "Нотариус",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 843,
+    "fields": {
+      "question": 335,
+      "option_text": "Телеведущий",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 336,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Учёный-геолог» или «Туристический агент»?",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 844,
+    "fields": {
+      "question": 336,
+      "option_text": "Учёный-геолог",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 845,
+    "fields": {
+      "question": 336,
+      "option_text": "Туристический агент",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 337,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Метеоролог» или «Эксперт-оценщик имущества»?",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 846,
+    "fields": {
+      "question": 337,
+      "option_text": "Метеоролог",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 847,
+    "fields": {
+      "question": 337,
+      "option_text": "Эксперт-оценщик имущества",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 338,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Фармацевт» или «Архитектор»?",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 848,
+    "fields": {
+      "question": 338,
+      "option_text": "Фармацевт",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 849,
+    "fields": {
+      "question": 338,
+      "option_text": "Архитектор",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 339,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Налоговый инспектор» или «Директор по финансам»?",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 850,
+    "fields": {
+      "question": 339,
+      "option_text": "Налоговый инспектор",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 851,
+    "fields": {
+      "question": 339,
+      "option_text": "Директор по финансам",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 340,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Шеф-повар» или «Офицер федеральной службы безопасности»?",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 852,
+    "fields": {
+      "question": 340,
+      "option_text": "Шеф-повар",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 853,
+    "fields": {
+      "question": 340,
+      "option_text": "Офицер федеральной службы безопасности",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 341,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Начальник стройки» или «Проектировщик домов»?",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 854,
+    "fields": {
+      "question": 341,
+      "option_text": "Начальник стройки",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 855,
+    "fields": {
+      "question": 341,
+      "option_text": "Проектировщик домов",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 342,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Геолог-нефтяник» или «Контролёр качества технологического процесса»?",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 856,
+    "fields": {
+      "question": 342,
+      "option_text": "Геолог-нефтяник",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 857,
+    "fields": {
+      "question": 342,
+      "option_text": "Контролёр качества технологического процесса",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 343,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Спасатель» или «Дизайнер интерьеров»?",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 858,
+    "fields": {
+      "question": 343,
+      "option_text": "Спасатель",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 859,
+    "fields": {
+      "question": 343,
+      "option_text": "Дизайнер интерьеров",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 344,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Маркетолог» или «Агент по недвижимости»?",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 860,
+    "fields": {
+      "question": 344,
+      "option_text": "Маркетолог",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 861,
+    "fields": {
+      "question": 344,
+      "option_text": "Агент по недвижимости",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 345,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Тренер-инструктор» или «Инженер мобильной связи»?",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 862,
+    "fields": {
+      "question": 345,
+      "option_text": "Тренер-инструктор",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 863,
+    "fields": {
+      "question": 345,
+      "option_text": "Инженер мобильной связи",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 346,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Машинист электропоезда» или «Логопед»?",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 864,
+    "fields": {
+      "question": 346,
+      "option_text": "Машинист электропоезда",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 865,
+    "fields": {
+      "question": 346,
+      "option_text": "Логопед",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 347,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Студийный фотограф» или «Лингвист-востоковед»?",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 866,
+    "fields": {
+      "question": 347,
+      "option_text": "Студийный фотограф",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 867,
+    "fields": {
+      "question": 347,
+      "option_text": "Лингвист-востоковед",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 348,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Искусствовед» или «Преподаватель физико-математических наук»?",
+      "question_type": "single_choice",
+      "question_order": 16
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 868,
+    "fields": {
+      "question": 348,
+      "option_text": "Искусствовед",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 869,
+    "fields": {
+      "question": 348,
+      "option_text": "Преподаватель физико-математических наук",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 349,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Гид-переводчик» или «Начальник отдела кадров»?",
+      "question_type": "single_choice",
+      "question_order": 17
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 870,
+    "fields": {
+      "question": 349,
+      "option_text": "Гид-переводчик",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 871,
+    "fields": {
+      "question": 349,
+      "option_text": "Начальник отдела кадров",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 350,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Спортивный арбитр» или «Веб-дизайнер»?",
+      "question_type": "single_choice",
+      "question_order": 18
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 872,
+    "fields": {
+      "question": 350,
+      "option_text": "Спортивный арбитр",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 873,
+    "fields": {
+      "question": 350,
+      "option_text": "Веб-дизайнер",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 351,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Руководитель предприятия» или «Обозреватель политических событий»?",
+      "question_type": "single_choice",
+      "question_order": 19
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 874,
+    "fields": {
+      "question": 351,
+      "option_text": "Руководитель предприятия",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 875,
+    "fields": {
+      "question": 351,
+      "option_text": "Обозреватель политических событий",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 352,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Редактор научной литературы» или «Аудитор»?",
+      "question_type": "single_choice",
+      "question_order": 20
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 876,
+    "fields": {
+      "question": 352,
+      "option_text": "Редактор научной литературы",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 877,
+    "fields": {
+      "question": 352,
+      "option_text": "Аудитор",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 353,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Врач-терапевт» или «Командир воинской части»?",
+      "question_type": "single_choice",
+      "question_order": 21
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 878,
+    "fields": {
+      "question": 353,
+      "option_text": "Врач-терапевт",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 879,
+    "fields": {
+      "question": 353,
+      "option_text": "Командир воинской части",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 354,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Водолаз» или «Бактериолог»?",
+      "question_type": "single_choice",
+      "question_order": 22
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 880,
+    "fields": {
+      "question": 354,
+      "option_text": "Водолаз",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 881,
+    "fields": {
+      "question": 354,
+      "option_text": "Бактериолог",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 355,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Учёный-экономист» или «Директор супермаркета»?",
+      "question_type": "single_choice",
+      "question_order": 23
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 882,
+    "fields": {
+      "question": 355,
+      "option_text": "Учёный-экономист",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 883,
+    "fields": {
+      "question": 355,
+      "option_text": "Директор супермаркета",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 356,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Инженер-конструктор» или «Управляющий производством»?",
+      "question_type": "single_choice",
+      "question_order": 24
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 884,
+    "fields": {
+      "question": 356,
+      "option_text": "Инженер-конструктор",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 885,
+    "fields": {
+      "question": 356,
+      "option_text": "Управляющий производством",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 357,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Поэт-переводчик» или «Учёный в области геологии»?",
+      "question_type": "single_choice",
+      "question_order": 25
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 886,
+    "fields": {
+      "question": 357,
+      "option_text": "Поэт-переводчик",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 887,
+    "fields": {
+      "question": 357,
+      "option_text": "Учёный в области геологии",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 358,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Судья» или «Психоаналитик»?",
+      "question_type": "single_choice",
+      "question_order": 26
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 888,
+    "fields": {
+      "question": 358,
+      "option_text": "Судья",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 889,
+    "fields": {
+      "question": 358,
+      "option_text": "Психоаналитик",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 359,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Инженер — испытатель двигателей» или «Главный инженер по строительству»?",
+      "question_type": "single_choice",
+      "question_order": 27
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 890,
+    "fields": {
+      "question": 359,
+      "option_text": "Инженер — испытатель двигателей",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 891,
+    "fields": {
+      "question": 359,
+      "option_text": "Главный инженер по строительству",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 360,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Инструктор по фитнесу» или «Журналист»?",
+      "question_type": "single_choice",
+      "question_order": 28
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 892,
+    "fields": {
+      "question": 360,
+      "option_text": "Инструктор по фитнесу",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 893,
+    "fields": {
+      "question": 360,
+      "option_text": "Журналист",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 361,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Ревизор» или «Директор театра»?",
+      "question_type": "single_choice",
+      "question_order": 29
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 894,
+    "fields": {
+      "question": 361,
+      "option_text": "Ревизор",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 895,
+    "fields": {
+      "question": 361,
+      "option_text": "Директор театра",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 362,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Травматолог» или «Сотрудник ГИБДД»?",
+      "question_type": "single_choice",
+      "question_order": 30
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 896,
+    "fields": {
+      "question": 362,
+      "option_text": "Травматолог",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 897,
+    "fields": {
+      "question": 362,
+      "option_text": "Сотрудник ГИБДД",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 363,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Учёный-математик» или «Авиадиспетчер»?",
+      "question_type": "single_choice",
+      "question_order": 31
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 898,
+    "fields": {
+      "question": 363,
+      "option_text": "Учёный-математик",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 899,
+    "fields": {
+      "question": 363,
+      "option_text": "Авиадиспетчер",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 364,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Кинорежиссёр» или «Артист в шоу-бизнесе»?",
+      "question_type": "single_choice",
+      "question_order": 32
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 900,
+    "fields": {
+      "question": 364,
+      "option_text": "Кинорежиссёр",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 901,
+    "fields": {
+      "question": 364,
+      "option_text": "Артист в шоу-бизнесе",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 365,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Дознаватель» или «Водитель транспортного средства»?",
+      "question_type": "single_choice",
+      "question_order": 33
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 902,
+    "fields": {
+      "question": 365,
+      "option_text": "Дознаватель",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 903,
+    "fields": {
+      "question": 365,
+      "option_text": "Водитель транспортного средства",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 366,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Инкассатор» или «Специалист по ремонту автомобилей»?",
+      "question_type": "single_choice",
+      "question_order": 34
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 904,
+    "fields": {
+      "question": 366,
+      "option_text": "Инкассатор",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 905,
+    "fields": {
+      "question": 366,
+      "option_text": "Специалист по ремонту автомобилей",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 367,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Корреспондент» или «Предприниматель»?",
+      "question_type": "single_choice",
+      "question_order": 35
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 906,
+    "fields": {
+      "question": 367,
+      "option_text": "Корреспондент",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 907,
+    "fields": {
+      "question": 367,
+      "option_text": "Предприниматель",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 368,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Взрывотехник» или «Каскадёр»?",
+      "question_type": "single_choice",
+      "question_order": 36
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 908,
+    "fields": {
+      "question": 368,
+      "option_text": "Взрывотехник",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 909,
+    "fields": {
+      "question": 368,
+      "option_text": "Каскадёр",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 369,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Инженер садово-паркового хозяйства» или «Научный сотрудник в области генетики»?",
+      "question_type": "single_choice",
+      "question_order": 37
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 910,
+    "fields": {
+      "question": 369,
+      "option_text": "Инженер садово-паркового хозяйства",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 911,
+    "fields": {
+      "question": 369,
+      "option_text": "Научный сотрудник в области генетики",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 370,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Океанолог» или «Врач-терапевт»?",
+      "question_type": "single_choice",
+      "question_order": 38
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 912,
+    "fields": {
+      "question": 370,
+      "option_text": "Океанолог",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 913,
+    "fields": {
+      "question": 370,
+      "option_text": "Врач-терапевт",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 371,
+    "fields": {
+      "test": 16,
+      "question_text": "Что вам ближе: «Авиационный механик» или «Физик-ядерщик»?",
+      "question_type": "single_choice",
+      "question_order": 39
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 914,
+    "fields": {
+      "question": 371,
+      "option_text": "Авиационный механик",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 915,
+    "fields": {
+      "question": 371,
+      "option_text": "Физик-ядерщик",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 17,
+    "fields": {
+      "name": "Задание 14. Диагностика профессиональных склонностей (Йовайша)",
+      "test_type": "scored",
+      "task_number": 14,
+      "description": "Методика Л.А. Йовайши в модификации Г. Резапкиной. Выберите один из трёх вариантов утверждений.\n\n10–12 баллов — ярко выраженная профессиональная склонность.\n7–9 баллов — склонность к определённому виду деятельности.\n4–6 баллов — слабо выраженная склонность.\n0–3 балла — склонность не выражена.",
+      "questions_count": 0,
+      "duration_minutes": 15
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 372,
+    "fields": {
+      "test": 17,
+      "question_text": "Мне хотелось бы в своей профессиональной деятельности",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 916,
+    "fields": {
+      "question": 372,
+      "option_text": "а) общаться с самыми разными людьми",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 917,
+    "fields": {
+      "question": 372,
+      "option_text": "б) снимать фильмы, писать книги, рисовать, выступать на сцене",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 918,
+    "fields": {
+      "question": 372,
+      "option_text": "в) заниматься расчётами; вести документацию",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 373,
+    "fields": {
+      "test": 17,
+      "question_text": "В книге или кинофильме меня больше всего привлекает",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 919,
+    "fields": {
+      "question": 373,
+      "option_text": "а) возможность следить за ходом мыслей автора",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 920,
+    "fields": {
+      "question": 373,
+      "option_text": "б) художественная форма, мастерство писателя или режиссёра",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 921,
+    "fields": {
+      "question": 373,
+      "option_text": "в) сюжет, действия героев",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 374,
+    "fields": {
+      "test": 17,
+      "question_text": "Меня больше обрадует Нобелевская премия",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 922,
+    "fields": {
+      "question": 374,
+      "option_text": "а) за общественную деятельность",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 923,
+    "fields": {
+      "question": 374,
+      "option_text": "б) в области наук",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 924,
+    "fields": {
+      "question": 374,
+      "option_text": "в) в области искусства",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 375,
+    "fields": {
+      "test": 17,
+      "question_text": "Я скорее соглашусь стать",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 925,
+    "fields": {
+      "question": 375,
+      "option_text": "а) главным механиком",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 926,
+    "fields": {
+      "question": 375,
+      "option_text": "б) начальником экспедиции",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 927,
+    "fields": {
+      "question": 375,
+      "option_text": "в) главным бухгалтером",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 376,
+    "fields": {
+      "test": 17,
+      "question_text": "Будущее людей определяют",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 928,
+    "fields": {
+      "question": 376,
+      "option_text": "а) взаимопонимание между людьми",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 929,
+    "fields": {
+      "question": 376,
+      "option_text": "б) научные открытия",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 930,
+    "fields": {
+      "question": 376,
+      "option_text": "в) развитие производства",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 377,
+    "fields": {
+      "test": 17,
+      "question_text": "Если я стану руководителем, то в первую очередь займусь",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 931,
+    "fields": {
+      "question": 377,
+      "option_text": "а) созданием дружного, сплочённого коллектива",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 932,
+    "fields": {
+      "question": 377,
+      "option_text": "б) разработкой новых технологий обучения",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 933,
+    "fields": {
+      "question": 377,
+      "option_text": "в) работой с документами",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 378,
+    "fields": {
+      "test": 17,
+      "question_text": "На технической выставке меня больше привлечёт",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 934,
+    "fields": {
+      "question": 378,
+      "option_text": "а) внутреннее устройство экспонатов",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 935,
+    "fields": {
+      "question": 378,
+      "option_text": "б) их практическое применение",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 936,
+    "fields": {
+      "question": 378,
+      "option_text": "в) внешний вид экспонатов (цвет, форма)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 379,
+    "fields": {
+      "test": 17,
+      "question_text": "В людях я ценю прежде всего",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 937,
+    "fields": {
+      "question": 379,
+      "option_text": "а) дружелюбие и отзывчивость",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 938,
+    "fields": {
+      "question": 379,
+      "option_text": "б) смелость и выносливость",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 939,
+    "fields": {
+      "question": 379,
+      "option_text": "в) обязательность и аккуратность",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 380,
+    "fields": {
+      "test": 17,
+      "question_text": "В свободное время мне хотелось бы",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 940,
+    "fields": {
+      "question": 380,
+      "option_text": "а) ставить различные опыты, эксперименты",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 941,
+    "fields": {
+      "question": 380,
+      "option_text": "б) писать стихи, сочинять музыку или рисовать",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 942,
+    "fields": {
+      "question": 380,
+      "option_text": "в) тренироваться",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 381,
+    "fields": {
+      "test": 17,
+      "question_text": "В заграничных поездках меня скорее заинтересует",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 943,
+    "fields": {
+      "question": 381,
+      "option_text": "а) возможность знакомства с историей и культурой другой страны",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 944,
+    "fields": {
+      "question": 381,
+      "option_text": "б) экстремальный туризм (альпинизм, виндсёрфинг, горные лыжи)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 945,
+    "fields": {
+      "question": 381,
+      "option_text": "в) деловое общение",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 382,
+    "fields": {
+      "test": 17,
+      "question_text": "Мне интереснее беседовать о",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 946,
+    "fields": {
+      "question": 382,
+      "option_text": "а) человеческих взаимоотношениях",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 947,
+    "fields": {
+      "question": 382,
+      "option_text": "б) новой научной гипотезе",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 948,
+    "fields": {
+      "question": 382,
+      "option_text": "в) технических характеристиках новой модели машины, компьютера",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 383,
+    "fields": {
+      "test": 17,
+      "question_text": "Если бы в моей школе было всего три кружка, я бы выбрал",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 949,
+    "fields": {
+      "question": 383,
+      "option_text": "а) технический",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 950,
+    "fields": {
+      "question": 383,
+      "option_text": "б) музыкальный",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 951,
+    "fields": {
+      "question": 383,
+      "option_text": "в) спортивный",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 384,
+    "fields": {
+      "test": 17,
+      "question_text": "В школе следует обратить особое внимание на",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 952,
+    "fields": {
+      "question": 384,
+      "option_text": "а) улучшение взаимопонимания между учителями и учениками",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 953,
+    "fields": {
+      "question": 384,
+      "option_text": "б) поддержание здоровья учащихся, занятия спортом",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 954,
+    "fields": {
+      "question": 384,
+      "option_text": "в) укрепление дисциплины",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 385,
+    "fields": {
+      "test": 17,
+      "question_text": "Я с большим удовольствием смотрю",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 955,
+    "fields": {
+      "question": 385,
+      "option_text": "а) научно-популярные фильмы",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 956,
+    "fields": {
+      "question": 385,
+      "option_text": "б) программы о культуре и искусстве",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 957,
+    "fields": {
+      "question": 385,
+      "option_text": "в) спортивные программы",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 386,
+    "fields": {
+      "test": 17,
+      "question_text": "Мне хотелось бы работать",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 958,
+    "fields": {
+      "question": 386,
+      "option_text": "а) с детьми или сверстниками",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 959,
+    "fields": {
+      "question": 386,
+      "option_text": "б) с машинами, механизмами",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 960,
+    "fields": {
+      "question": 386,
+      "option_text": "в) с объектами природы",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 387,
+    "fields": {
+      "test": 17,
+      "question_text": "Школа в первую очередь должна",
+      "question_type": "single_choice",
+      "question_order": 16
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 961,
+    "fields": {
+      "question": 387,
+      "option_text": "а) учить общению с другими людьми",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 962,
+    "fields": {
+      "question": 387,
+      "option_text": "б) давать знания",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 963,
+    "fields": {
+      "question": 387,
+      "option_text": "в) обучать навыкам работы",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 388,
+    "fields": {
+      "test": 17,
+      "question_text": "Главное в жизни",
+      "question_type": "single_choice",
+      "question_order": 17
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 964,
+    "fields": {
+      "question": 388,
+      "option_text": "а) иметь возможность заниматься творчеством",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 965,
+    "fields": {
+      "question": 388,
+      "option_text": "б) вести здоровый образ жизни",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 966,
+    "fields": {
+      "question": 388,
+      "option_text": "в) тщательно планировать свои дела",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 389,
+    "fields": {
+      "test": 17,
+      "question_text": "Государство должно в первую очередь заботиться о",
+      "question_type": "single_choice",
+      "question_order": 18
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 967,
+    "fields": {
+      "question": 389,
+      "option_text": "а) защите интересов и прав граждан",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 968,
+    "fields": {
+      "question": 389,
+      "option_text": "б) достижениях в области науки и техники",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 969,
+    "fields": {
+      "question": 389,
+      "option_text": "в) материальном благополучии граждан",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 390,
+    "fields": {
+      "test": 17,
+      "question_text": "Мне больше всего нравятся уроки",
+      "question_type": "single_choice",
+      "question_order": 19
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 970,
+    "fields": {
+      "question": 390,
+      "option_text": "а) труда",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 971,
+    "fields": {
+      "question": 390,
+      "option_text": "б) физкультуры",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 972,
+    "fields": {
+      "question": 390,
+      "option_text": "в) математики",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 391,
+    "fields": {
+      "test": 17,
+      "question_text": "Мне интереснее было бы",
+      "question_type": "single_choice",
+      "question_order": 20
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 973,
+    "fields": {
+      "question": 391,
+      "option_text": "а) заниматься сбытом товаров",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 974,
+    "fields": {
+      "question": 391,
+      "option_text": "б) изготавливать изделия",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 975,
+    "fields": {
+      "question": 391,
+      "option_text": "в) планировать производство товаров",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 392,
+    "fields": {
+      "test": 17,
+      "question_text": "Я предпочитаю читать статьи о",
+      "question_type": "single_choice",
+      "question_order": 21
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 976,
+    "fields": {
+      "question": 392,
+      "option_text": "а) выдающихся учёных и их открытиях",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 977,
+    "fields": {
+      "question": 392,
+      "option_text": "б) интересных изобретениях",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 978,
+    "fields": {
+      "question": 392,
+      "option_text": "в) жизни и творчестве писателей, художников, музыкантов",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 393,
+    "fields": {
+      "test": 17,
+      "question_text": "Свободное время я люблю",
+      "question_type": "single_choice",
+      "question_order": 22
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 979,
+    "fields": {
+      "question": 393,
+      "option_text": "а) читать, думать, рассуждать",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 980,
+    "fields": {
+      "question": 393,
+      "option_text": "б) что-нибудь мастерить, шить, ухаживать за животными, растениями",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 981,
+    "fields": {
+      "question": 393,
+      "option_text": "в) ходить на выставки, концерты, в музеи",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 394,
+    "fields": {
+      "test": 17,
+      "question_text": "Больший интерес у меня вызовет сообщение о",
+      "question_type": "single_choice",
+      "question_order": 23
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 982,
+    "fields": {
+      "question": 394,
+      "option_text": "а) научном открытии",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 983,
+    "fields": {
+      "question": 394,
+      "option_text": "б) художественной выставке",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 1,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 984,
+    "fields": {
+      "question": 394,
+      "option_text": "в) экономической ситуации",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 395,
+    "fields": {
+      "test": 17,
+      "question_text": "Я предпочту работать",
+      "question_type": "single_choice",
+      "question_order": 24
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 985,
+    "fields": {
+      "question": 395,
+      "option_text": "а) в помещении, где много людей",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 986,
+    "fields": {
+      "question": 395,
+      "option_text": "б) в необычных условиях",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 1,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 987,
+    "fields": {
+      "question": 395,
+      "option_text": "в) в обычном кабинете",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 1
+    }
+  }
+]

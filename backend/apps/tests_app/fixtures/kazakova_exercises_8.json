@@ -1,0 +1,1198 @@
+[
+  {
+    "model": "tests_app.test",
+    "pk": 18,
+    "fields": {
+      "name": "Задание 15. Профпригодность",
+      "test_type": "scored",
+      "task_number": 15,
+      "description": "Выберите подходящий вам вариант ответа.\n\n5–8 баллов: вы цените тишину и не любите шумных незнакомых компаний. Вам подойдут профессии, где не требуется частое общение: программист, бухгалтер, оператор ЭВМ, слесарь, токарь, работа в лесничестве или лаборатории.\n\n8–12 баллов: вам комфортно и в одиночестве, и в компании. Выбор профессии практически не ограничен.\n\n12–15 баллов: вы общительны и энергичны. Вам подойдут профессии менеджера, учителя, журналиста, тренера, коммерческого директора, продавца, брокера.",
+      "questions_count": 0,
+      "duration_minutes": 10
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 396,
+    "fields": {
+      "test": 18,
+      "question_text": "Новогодняя ночь для тебя — лучшее время, чтобы:",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 988,
+    "fields": {
+      "question": 396,
+      "option_text": "а) выспаться",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 989,
+    "fields": {
+      "question": 396,
+      "option_text": "б) посмотреть телевизор вместе с семьёй",
+      "weight_people": 2,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 990,
+    "fields": {
+      "question": 396,
+      "option_text": "в) оказаться в кругу друзей",
+      "weight_people": 3,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 397,
+    "fields": {
+      "test": 18,
+      "question_text": "Из трёх подарков ты предпочёл бы:",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 991,
+    "fields": {
+      "question": 397,
+      "option_text": "а) удочку, набор для вышивания",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 992,
+    "fields": {
+      "question": 397,
+      "option_text": "б) коньки или лыжи",
+      "weight_people": 2,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 993,
+    "fields": {
+      "question": 397,
+      "option_text": "в) турпутёвку или билет на интересное представление",
+      "weight_people": 3,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 398,
+    "fields": {
+      "test": 18,
+      "question_text": "Отправляться в путешествие лучше всего:",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 994,
+    "fields": {
+      "question": 398,
+      "option_text": "а) в одиночку",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 995,
+    "fields": {
+      "question": 398,
+      "option_text": "б) с семьёй или друзьями",
+      "weight_people": 2,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 996,
+    "fields": {
+      "question": 398,
+      "option_text": "в) с незнакомой группой, чтобы обрести новых друзей",
+      "weight_people": 3,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 399,
+    "fields": {
+      "test": 18,
+      "question_text": "Если бы ты оказался в одиночестве на острове или в лесу, то:",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 997,
+    "fields": {
+      "question": 399,
+      "option_text": "а) почувствовал бы полную свободу",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 998,
+    "fields": {
+      "question": 399,
+      "option_text": "б) занялся бы поиском выхода или каким-нибудь делом",
+      "weight_people": 2,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 999,
+    "fields": {
+      "question": 399,
+      "option_text": "в) ощутил бы тоску, неприкаянность, страх",
+      "weight_people": 3,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 400,
+    "fields": {
+      "test": 18,
+      "question_text": "В своё свободное время ты любишь:",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1000,
+    "fields": {
+      "question": 400,
+      "option_text": "а) читать, посещать библиотеку, шахматную секцию, зоопарк, лес, ловить рыбу, мечтать",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1001,
+    "fields": {
+      "question": 400,
+      "option_text": "б) рисовать, заниматься спортом, музыкой, шитьём, ходить в походы, смотреть телевизор",
+      "weight_people": 2,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1002,
+    "fields": {
+      "question": 400,
+      "option_text": "в) заниматься спортом, танцами, играть в ансамбле, петь в хоре, участвовать в спектаклях, путешествовать с друзьями",
+      "weight_people": 3,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.test",
+    "pk": 19,
+    "fields": {
+      "name": "Задание 16. Мотивы выбора профессии",
+      "test_type": "scored",
+      "task_number": 16,
+      "description": "Поставьте «+» напротив мотивов, которые значимы для вас.\n\nНаибольший балл по шкале «Престиж»: стремление занять видное положение в обществе.\nНаибольший балл по шкале «Материальное»: на первом месте — заработок и благополучие.\nНаибольший балл по шкале «Творческое»: интерес к профессии, саморазвитие, творчество.",
+      "questions_count": 0,
+      "duration_minutes": 10
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 401,
+    "fields": {
+      "test": 19,
+      "question_text": "Интерес к содержанию профессии, желание узнать, в чём заключаются обязанности специалиста.",
+      "question_type": "single_choice",
+      "question_order": 1
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1003,
+    "fields": {
+      "question": 401,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1004,
+    "fields": {
+      "question": 401,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 402,
+    "fields": {
+      "test": 19,
+      "question_text": "Стремление к самосовершенствованию, развитию навыков и умений в избираемой сфере деятельности.",
+      "question_type": "single_choice",
+      "question_order": 2
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1005,
+    "fields": {
+      "question": 402,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1006,
+    "fields": {
+      "question": 402,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 403,
+    "fields": {
+      "test": 19,
+      "question_text": "Убеждение, что данная профессия имеет высокий престиж в обществе.",
+      "question_type": "single_choice",
+      "question_order": 3
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1007,
+    "fields": {
+      "question": 403,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1008,
+    "fields": {
+      "question": 403,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 404,
+    "fields": {
+      "test": 19,
+      "question_text": "Влияние семейных традиций.",
+      "question_type": "single_choice",
+      "question_order": 4
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1009,
+    "fields": {
+      "question": 404,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1010,
+    "fields": {
+      "question": 404,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 405,
+    "fields": {
+      "test": 19,
+      "question_text": "Желание приобрести материальную независимость от родителей.",
+      "question_type": "single_choice",
+      "question_order": 5
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1011,
+    "fields": {
+      "question": 405,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1012,
+    "fields": {
+      "question": 405,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 406,
+    "fields": {
+      "test": 19,
+      "question_text": "Хорошая успеваемость в школе по предметам, соответствующим избираемой сфере деятельности.",
+      "question_type": "single_choice",
+      "question_order": 6
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1013,
+    "fields": {
+      "question": 406,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1014,
+    "fields": {
+      "question": 406,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 407,
+    "fields": {
+      "test": 19,
+      "question_text": "Желание руководить другими людьми.",
+      "question_type": "single_choice",
+      "question_order": 7
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1015,
+    "fields": {
+      "question": 407,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1016,
+    "fields": {
+      "question": 407,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 408,
+    "fields": {
+      "test": 19,
+      "question_text": "Привлекает индивидуальная работа.",
+      "question_type": "single_choice",
+      "question_order": 8
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1017,
+    "fields": {
+      "question": 408,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1018,
+    "fields": {
+      "question": 408,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 409,
+    "fields": {
+      "test": 19,
+      "question_text": "Мечта заниматься творческой работой, желание открывать новое и неизведанное.",
+      "question_type": "single_choice",
+      "question_order": 9
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1019,
+    "fields": {
+      "question": 409,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1020,
+    "fields": {
+      "question": 409,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 410,
+    "fields": {
+      "test": 19,
+      "question_text": "Уверенность, что избранная профессия соответствует вашим способностям.",
+      "question_type": "single_choice",
+      "question_order": 10
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1021,
+    "fields": {
+      "question": 410,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1022,
+    "fields": {
+      "question": 410,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 411,
+    "fields": {
+      "test": 19,
+      "question_text": "Возможность удовлетворить свои материальные потребности.",
+      "question_type": "single_choice",
+      "question_order": 11
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1023,
+    "fields": {
+      "question": 411,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1024,
+    "fields": {
+      "question": 411,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 412,
+    "fields": {
+      "test": 19,
+      "question_text": "Стремление сделать свою жизнь насыщенной, интересной, увлекательной.",
+      "question_type": "single_choice",
+      "question_order": 12
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1025,
+    "fields": {
+      "question": 412,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1026,
+    "fields": {
+      "question": 412,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 413,
+    "fields": {
+      "test": 19,
+      "question_text": "Возможность проявить самостоятельность в работе.",
+      "question_type": "single_choice",
+      "question_order": 13
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1027,
+    "fields": {
+      "question": 413,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1028,
+    "fields": {
+      "question": 413,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 414,
+    "fields": {
+      "test": 19,
+      "question_text": "Привлекает предпринимательская деятельность.",
+      "question_type": "single_choice",
+      "question_order": 14
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1029,
+    "fields": {
+      "question": 414,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1030,
+    "fields": {
+      "question": 414,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 415,
+    "fields": {
+      "test": 19,
+      "question_text": "Необходимость материально помогать семье.",
+      "question_type": "single_choice",
+      "question_order": 15
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1031,
+    "fields": {
+      "question": 415,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1032,
+    "fields": {
+      "question": 415,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 416,
+    "fields": {
+      "test": 19,
+      "question_text": "Желание приобрести экономические знания.",
+      "question_type": "single_choice",
+      "question_order": 16
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1033,
+    "fields": {
+      "question": 416,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1034,
+    "fields": {
+      "question": 416,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 417,
+    "fields": {
+      "test": 19,
+      "question_text": "Стремление получить диплом о высшем образовании независимо от специальности.",
+      "question_type": "single_choice",
+      "question_order": 17
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1035,
+    "fields": {
+      "question": 417,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1036,
+    "fields": {
+      "question": 417,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 418,
+    "fields": {
+      "test": 19,
+      "question_text": "Привлекает профессия, которая не требует длительного обучения.",
+      "question_type": "single_choice",
+      "question_order": 18
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1037,
+    "fields": {
+      "question": 418,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1038,
+    "fields": {
+      "question": 418,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 419,
+    "fields": {
+      "test": 19,
+      "question_text": "Желание работать в престижном месте.",
+      "question_type": "single_choice",
+      "question_order": 19
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1039,
+    "fields": {
+      "question": 419,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1040,
+    "fields": {
+      "question": 419,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 420,
+    "fields": {
+      "test": 19,
+      "question_text": "Стремление найти удачный способ зарабатывать себе на хлеб.",
+      "question_type": "single_choice",
+      "question_order": 20
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1041,
+    "fields": {
+      "question": 420,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1042,
+    "fields": {
+      "question": 420,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 421,
+    "fields": {
+      "test": 19,
+      "question_text": "Привлекают модные профессии (менеджер, коммерсант, брокер и т.п.).",
+      "question_type": "single_choice",
+      "question_order": 21
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1043,
+    "fields": {
+      "question": 421,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1044,
+    "fields": {
+      "question": 421,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 422,
+    "fields": {
+      "test": 19,
+      "question_text": "Желание приносить пользу людям.",
+      "question_type": "single_choice",
+      "question_order": 22
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1045,
+    "fields": {
+      "question": 422,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 1,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1046,
+    "fields": {
+      "question": 422,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 423,
+    "fields": {
+      "test": 19,
+      "question_text": "Интерес к материальной стороне профессиональной деятельности.",
+      "question_type": "single_choice",
+      "question_order": 23
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1047,
+    "fields": {
+      "question": 423,
+      "option_text": "+ (Значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 1,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1048,
+    "fields": {
+      "question": 423,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.testquestion",
+    "pk": 424,
+    "fields": {
+      "test": 19,
+      "question_text": "Привлекают внешние свойства профессии (быть в центре внимания, возможность путешествовать, носить специальную форму одежды).",
+      "question_type": "single_choice",
+      "question_order": 24
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1049,
+    "fields": {
+      "question": 424,
+      "option_text": "+ (Значимо)",
+      "weight_people": 1,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  },
+  {
+    "model": "tests_app.answeroption",
+    "pk": 1050,
+    "fields": {
+      "question": 424,
+      "option_text": "− (Не значимо)",
+      "weight_people": 0,
+      "weight_intellectual": 0,
+      "weight_practical": 0,
+      "weight_aesthetic": 0,
+      "weight_physical": 0,
+      "weight_administrative": 0
+    }
+  }
+]

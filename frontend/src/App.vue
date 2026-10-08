@@ -1,0 +1,18 @@
+<template>
+  <div class="min-h-screen">
+    <Navbar v-if="authStore.isAuthenticated" />
+    <router-view />
+  </div>
+</template>
+
+<script setup>
+import { onMounted } from 'vue'
+import Navbar from '@/components/Navbar.vue'
+import { useAuthStore } from '@/stores/auth'
+
+const authStore = useAuthStore()
+
+onMounted(() => {
+  authStore.initAuth()
+})
+</script>

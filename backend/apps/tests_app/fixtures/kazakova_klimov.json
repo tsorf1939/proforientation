@@ -1,0 +1,94 @@
+[
+  {
+    "model": "tests_app.test",
+    "pk": 2,
+    "fields": {
+      "name": "Задание 12. ДДО Климова",
+      "description": "Дифференциально-диагностический опросник Климова. Определяет ведущий тип профессиональных предпочтений: Человек-Человек, Человек-Техника, Человек-Природа, Человек-Знаковые системы, Человек-Художественный образ.",
+      "questions_count": 0,
+      "duration_minutes": 15,
+      "test_type": "klimov",
+      "task_number": 12
+    }
+  },
+
+  {"model": "tests_app.testquestion", "pk": 25, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (1):"}},
+  {"model": "tests_app.answeroption", "pk": 73, "fields": {"question_id": 25, "option_text": "А) Ухаживать за животными", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 74, "fields": {"question_id": 25, "option_text": "Б) Обслуживать машины, приборы (следить, регулировать)", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 26, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (2):"}},
+  {"model": "tests_app.answeroption", "pk": 75, "fields": {"question_id": 26, "option_text": "А) Помогать больным людям, лечить их", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 76, "fields": {"question_id": 26, "option_text": "Б) Составлять таблицы, схемы, программы для ЭВМ", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 27, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (3):"}},
+  {"model": "tests_app.answeroption", "pk": 77, "fields": {"question_id": 27, "option_text": "А) Следить за качеством книжных иллюстраций, плакатов, открыток", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 78, "fields": {"question_id": 27, "option_text": "Б) Следить за состоянием и развитием растений", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 28, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (4):"}},
+  {"model": "tests_app.answeroption", "pk": 79, "fields": {"question_id": 28, "option_text": "А) Обрабатывать материалы (дерево, ткань, металл, пластмассу)", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 80, "fields": {"question_id": 28, "option_text": "Б) Доводить товары до потребителей (рекламировать, продавать)", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 29, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (5):"}},
+  {"model": "tests_app.answeroption", "pk": 81, "fields": {"question_id": 29, "option_text": "А) Обсуждать научно-популярные книги, статьи", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 82, "fields": {"question_id": 29, "option_text": "Б) Обсуждать художественные книги, пьесы, концерты", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 30, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (6):"}},
+  {"model": "tests_app.answeroption", "pk": 83, "fields": {"question_id": 30, "option_text": "А) Выращивать молодняк животных (телят, ягнят и других)", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 84, "fields": {"question_id": 30, "option_text": "Б) Тренировать товарищей (или младших) в выполнении чего-либо", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 31, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (7):"}},
+  {"model": "tests_app.answeroption", "pk": 85, "fields": {"question_id": 31, "option_text": "А) Копировать рисунки, изображения (или настраивать музыкальные инструменты)", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 86, "fields": {"question_id": 31, "option_text": "Б) Управлять каким-либо грузовым транспортом, подъёмным краном", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 32, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (8):"}},
+  {"model": "tests_app.answeroption", "pk": 87, "fields": {"question_id": 32, "option_text": "А) Сообщать людям нужные им сведения (в справочном бюро, на экскурсии)", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 88, "fields": {"question_id": 32, "option_text": "Б) Художественно оформлять выставки, витрины", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 33, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (9):"}},
+  {"model": "tests_app.answeroption", "pk": 89, "fields": {"question_id": 33, "option_text": "А) Ремонтировать вещи, одежду, машины, жилище", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 90, "fields": {"question_id": 33, "option_text": "Б) Искать и исправлять ошибки в текстах, таблицах, рисунках", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 34, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (10):"}},
+  {"model": "tests_app.answeroption", "pk": 91, "fields": {"question_id": 34, "option_text": "А) Лечить животных", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 92, "fields": {"question_id": 34, "option_text": "Б) Выполнять вычисления, расчёты", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 35, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (11):"}},
+  {"model": "tests_app.answeroption", "pk": 93, "fields": {"question_id": 35, "option_text": "А) Выводить новые сорта растений", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 94, "fields": {"question_id": 35, "option_text": "Б) Проектировать новые виды промышленных изделий (машины, одежду, дома)", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 36, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (12):"}},
+  {"model": "tests_app.answeroption", "pk": 95, "fields": {"question_id": 36, "option_text": "А) Разбирать споры между людьми, убеждать, объяснять", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 96, "fields": {"question_id": 36, "option_text": "Б) Разбираться в чертежах, схемах, таблицах", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 37, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (13):"}},
+  {"model": "tests_app.answeroption", "pk": 97, "fields": {"question_id": 37, "option_text": "А) Наблюдать за жизнью животных, вести наблюдения", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 98, "fields": {"question_id": 37, "option_text": "Б) Обслуживать, принимать клиентов, посетителей", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 38, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (14):"}},
+  {"model": "tests_app.answeroption", "pk": 99, "fields": {"question_id": 38, "option_text": "А) Обслуживать медицинские приборы, аппараты", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 100, "fields": {"question_id": 38, "option_text": "Б) Оказывать людям медицинскую помощь, первую помощь", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 39, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (15):"}},
+  {"model": "tests_app.answeroption", "pk": 101, "fields": {"question_id": 39, "option_text": "А) Составлять точные отчёты, протоколы", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 102, "fields": {"question_id": 39, "option_text": "Б) Художественно описывать события, природу", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 40, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (16):"}},
+  {"model": "tests_app.answeroption", "pk": 103, "fields": {"question_id": 40, "option_text": "А) Делать лабораторный анализ, исследование", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 104, "fields": {"question_id": 40, "option_text": "Б) Принимать, осматривать больных, беседовать с пациентами", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 41, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (17):"}},
+  {"model": "tests_app.answeroption", "pk": 105, "fields": {"question_id": 41, "option_text": "А) Красить или расписывать помещения, поверхности", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 106, "fields": {"question_id": 41, "option_text": "Б) Осуществлять монтаж зданий, сборку машин", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 42, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (18):"}},
+  {"model": "tests_app.answeroption", "pk": 107, "fields": {"question_id": 42, "option_text": "А) Организовывать культурные мероприятия, вести кружки", "weight_people": 1, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 108, "fields": {"question_id": 42, "option_text": "Б) Играть на музыкальном инструменте", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 1, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 43, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (19):"}},
+  {"model": "tests_app.answeroption", "pk": 109, "fields": {"question_id": 43, "option_text": "А) Изготавливать по чертежу детали, изделия", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 1, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 110, "fields": {"question_id": 43, "option_text": "Б) Заниматься черчением, копировать чертежи и схемы", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}},
+
+  {"model": "tests_app.testquestion", "pk": 44, "fields": {"test_id": 2, "question_text": "Выберите один из двух видов деятельности (20):"}},
+  {"model": "tests_app.answeroption", "pk": 111, "fields": {"question_id": 44, "option_text": "А) Вести борьбу с болезнями растений, вредителями", "weight_people": 0, "weight_intellectual": 0, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 1, "weight_administrative": 0}},
+  {"model": "tests_app.answeroption", "pk": 112, "fields": {"question_id": 44, "option_text": "Б) Работать на клавишных машинах, вводить данные", "weight_people": 0, "weight_intellectual": 1, "weight_practical": 0, "weight_aesthetic": 0, "weight_physical": 0, "weight_administrative": 0}}
+]
