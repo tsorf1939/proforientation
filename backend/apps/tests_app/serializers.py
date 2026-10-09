@@ -17,17 +17,26 @@ class TestQuestionSerializer(serializers.ModelSerializer):
 
 
 class TestListSerializer(serializers.ModelSerializer):
+    questions_count = serializers.SerializerMethodField()
+
     class Meta:
         model = Test
         fields = ['test_id', 'name', 'description', 'questions_count', 'duration_minutes', 'test_type', 'task_number']
 
+    def get_questions_count(self, obj):
+        return obj.questions.count()
+
 
 class TestDetailSerializer(serializers.ModelSerializer):
     questions = TestQuestionSerializer(many=True, read_only=True)
+    questions_count = serializers.SerializerMethodField()
 
     class Meta:
         model = Test
         fields = ['test_id', 'name', 'description', 'questions_count', 'duration_minutes', 'test_type', 'task_number', 'questions']
+
+    def get_questions_count(self, obj):
+        return obj.questions.count()
 
 
 class TestResultSerializer(serializers.ModelSerializer):

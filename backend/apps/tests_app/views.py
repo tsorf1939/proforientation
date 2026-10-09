@@ -61,12 +61,10 @@ class SubmitAnswerView(APIView):
             answered_count = StudentAnswer.objects.filter(
                 student=student, question__test=test
             ).count()
-            if answered_count >= test.questions_count:
+            if answered_count >= test.questions.count():
                 result.status = TestResult.STATUS_COMPLETED
                 result.completion_date = timezone.now()
                 result.save()
-                from apps.recommendations.tasks import generate_recommendations
-                generate_recommendations.delay(result.result_id)
 
         return Response({
             'detail': 'Ответ сохранён.',
