@@ -9,6 +9,11 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-dev-key')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
 
+# За Caddy/nginx: доверяем заголовку X-Forwarded-Proto, иначе Django считает
+# HTTPS-запросы небезопасными (ломает CSRF и secure-cookies за прокси).
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS', default='').split(',') if config('CSRF_TRUSTED_ORIGINS', default='') else []
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
